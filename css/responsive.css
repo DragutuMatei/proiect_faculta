@@ -3,7 +3,7 @@
 
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+/* @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-search {
         padding: 15px 0px;
     }
@@ -125,7 +125,7 @@
     .mean-container .mean-nav ul li a.mean-expand {
         top: 0;
     }
-}
+} */
 
 @media (min-width: 992px) and (max-width: 1199px) {
     #my_slider a.carousel-control-prev {
@@ -264,19 +264,6 @@
 }
 .long_text{
     font-size: 14px;
-}
-.contact_section{
-    padding-top: 0px;
-}
-.footer_section{
-    padding-top: 0px;
-    padding-bottom: 50px;
-}
-.email_text {
-    width: 50%;
-}
-.subscribe_bt {
-    float: none;
 }
 
 
@@ -423,15 +410,6 @@ height: 110%;
 }
 .box_main_1{
     margin-top: 20px;
-}
-.contact_main {
-    width: 100%;
-}
-.contact_section{
-    padding-bottom: 0px;
-}
-.footer_section{
-    padding-bottom: 50px;
 }
 
 #my_slider a.carousel-control-prev {
@@ -581,15 +559,6 @@ height: 110%;
 }
 .box_main_1{
     margin-top: 20px;
-}
-.contact_main {
-    width: 100%;
-}
-.contact_section{
-    padding-bottom: 0px;
-}
-.footer_section{
-    padding-bottom: 50px;
 }
 
 #my_slider a.carousel-control-prev {
