@@ -68,36 +68,16 @@
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="bmwi8.html">BMW I8</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="cycle.html">Our Cycle</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="audir8.html">AUDI R8</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="shop.html">Shop</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="news.html">News</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="mercedes.html">MERCEDES</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <div class="login_menu">
-              <ul>
-                <li><a href="#">Login</a></li>
-                <li>
-                  <a href="#"><img src="images/trolly-icon.png" /></a>
-                </li>
-                <li>
-                  <a href="#"><img src="images/search-icon.png" /></a>
-                </li>
-              </ul>
-            </div>
-            <div></div>
-          </form>
         </div>
         <div id="main">
           <span
@@ -133,81 +113,11 @@
                       maşină şi sustenabilitate. Explorează alături de noi
                       modelele BMW i!
                     </p>
-                    <div class="contact_bt">
-                      <a href="contact.html">Shop Now</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-7">
-                    <div class="best_text">AUDI</div>
-                    <div class="image_1">
-                      <img src="images/audi_home.png" />
-                    </div>
-                  </div>
-                  <div class="col-md-5">
-                    <h1 class="banner_taital">AUDI R8</h1>
-                    <p class="banner_text" style="color: #2f2f2f">
-                      R8 întruchipează esența a tot ceea ce însemnă motorsport
-                      și exclusivitate. R8 Coupé V10 quattro este Audi în formă
-                      pură. La cel mai înalt nivel.
-                    </p>
-                    <div class="contact_bt">
-                      <a href="contact.html">Shop Now</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-7">
-                    <div class="best_text" style="font-size: 15px">
-                      MERCEDES
-                    </div>
-                    <div class="image_1">
-                      <img src="images/mercedes_home.png" />
-                    </div>
-                  </div>
-                  <div class="col-md-5">
-                    <h1 class="banner_taital">Mercedes-AMG GT 63 S E</h1>
-                    <p class="banner_text" style="color: #2f2f2f">
-                      Noul Mercedes-AMG GT 63 S E Performance știe cum să-ți
-                      taie respirația și să îți dea senzația că, pe drumul spre
-                      următorul nivel, ești mereu cu o lungime de autovehicul în
-                      față. Practic, ca prim hibrid de performanță, acesta îți
-                      oferă o combinație palpitantă între tehnologia hibrid și
-                      tehnologia testată AMG la cel mai înalt nivel practic.
-                    </p>
-                    <div class="contact_bt">
-                      <a href="contact.html">Shop Now</a>
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <a
-            class="carousel-control-prev"
-            href="#main_slider"
-            role="button"
-            data-slide="prev"
-          >
-            <i class="fa fa-angle-left"></i>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#main_slider"
-            role="button"
-            data-slide="next"
-          >
-            <i class="fa fa-angle-right"></i>
-          </a>
         </div>
       </div>
       <!-- banner section end -->
@@ -393,6 +303,11 @@
         </div>
       </div>
     </div>
+    <iframe
+      src="https://www.bmw.de/de/topics/faszination-bmw/bmw-efficientdynamics/effizientes-fahren.html"
+      style="width: 100vw; height: 100vh"
+      frameborder="0"
+    ></iframe>
   </body>
 
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -401,18 +316,18 @@
   <script src="assets/js/isotope.min.js"></script>
   <script src="assets/js/custom.js"></script>
   <script>
-         function openNav() {
-           document.getElementById("mySidenav").style.width = "250px";
-           document.getElementById("main").style.marginLeft = "250px";
-         }
-         
-         function closeNav() {
-           document.getElementById("mySidenav").style.width = "0";
-           document.getElementById("main").style.marginLeft= "0";
-          
-         }
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
 
-         $("#main").click(function(){
-             $("#navbarSupportedContent").toggleClass("nav-normal")
-         })
-      </script></html>
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
+
+    $("#main").click(function () {
+      $("#navbarSupportedContent").toggleClass("nav-normal");
+    });
+  </script>
+</html>
